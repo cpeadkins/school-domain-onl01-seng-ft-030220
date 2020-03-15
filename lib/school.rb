@@ -4,7 +4,8 @@ class School
   
   
   def initialize
-    roster[grade] ||= []
+    @school = school
+    @roster = []
   end
 
 end
