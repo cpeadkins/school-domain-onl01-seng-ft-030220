@@ -1,6 +1,6 @@
 class School
   attr_accessor :roster
-  @@roster=[]
+  @@roster={}
   
   
   def initialize
